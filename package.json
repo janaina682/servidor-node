@@ -1,0 +1,22 @@
+{
+  "name": "estudos-node",
+  "version": "1.0.0",
+  "description": "Srvidor básico express.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janaina682/servidor-node.git"
+  },
+  "author": "Janaína J. N. Vale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janaina682/servidor-node/issues"
+  },
+  "homepage": "https://github.com/janaina682/servidor-node#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
