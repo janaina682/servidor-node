@@ -1,0 +1,5 @@
+# ignore pastas e arquivos de dependências
+/node_modules
+/dist
+/.env
+/logs
