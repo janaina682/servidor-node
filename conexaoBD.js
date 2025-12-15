@@ -22,3 +22,4 @@ async function connect() {
     }
 }
 connect()
+exports.sequelize = sequelize; // exporta a instância do Sequelize para ser usada em outros arquivos

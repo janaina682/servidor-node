@@ -38,3 +38,5 @@ async function connect() {
     }
 }
 connect()
+
+export { user };
