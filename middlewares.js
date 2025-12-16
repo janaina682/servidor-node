@@ -3,7 +3,7 @@ import express from 'express'; /* importa o express usando ESModules */
 const app = express(); /* cria uma aplicação express */
 
 /* Middleware de log de tempo */
-timeLogger =(req, res, next) =>{
+const timeLogger =(req, res, next) =>{
     console.log('hora:', Date.now())
     next();
 }
@@ -11,7 +11,7 @@ timeLogger =(req, res, next) =>{
 app.use(timeLogger);
 
 /* Middleware de autenticação */
-checkAuth = (req, res, next) =>{
+const checkAuth = (req, res, next) =>{
     const admin = req.query.admin ==='true';
     if(admin){
         next()
@@ -22,4 +22,7 @@ checkAuth = (req, res, next) =>{
 /* Rota protegida que usa o middleware de autenticação */
 app.get('/usuarios', checkAuth, (req, res)=>{
     res.send('Lista de usuários')
+})
+app.listen(3000, ()=>{
+    console.log('Servidor rodando na porta 3000')
 })
