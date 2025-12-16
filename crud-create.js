@@ -14,5 +14,10 @@ async function criarNovoUsuario(nome, email) {
 }
 
 // Exemplo de como chamar a função:
-//criarNovoUsuario('Gustavo Testando', 'gustavo.testando@exemplo.com');
-
+/* 
+criarNovoUsuario('Artur Nobre', 'artur.nobre@exemplo.com');
+criarNovoUsuario('Bernardo Silva', 'bernardo.silva@exemplo.com');
+criarNovoUsuario('Carol Guedes', 'carol.guedes@exemplo.com');
+criarNovoUsuario('Dionisio Borges', 'dionisio.borges@exemplo.com');
+criarNovoUsuario('Francesco Testando', 'francesco.testando@exemplo.com');
+*/
