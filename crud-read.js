@@ -12,3 +12,4 @@ async function buscarTodosUsuarios() {
 }
 // Exemplo de como chamar a função:
 buscarTodosUsuarios();
+export { buscarTodosUsuarios };
