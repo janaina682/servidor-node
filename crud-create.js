@@ -21,3 +21,4 @@ criarNovoUsuario('Carol Guedes', 'carol.guedes@exemplo.com');
 criarNovoUsuario('Dionisio Borges', 'dionisio.borges@exemplo.com');
 criarNovoUsuario('Francesco Testando', 'francesco.testando@exemplo.com');
 */
+export { criarNovoUsuario };
