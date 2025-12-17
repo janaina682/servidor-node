@@ -1,6 +1,6 @@
 import { user } from "./sequelize.js";
 //update
-async function AtualizarNomeUsuario(id, novoEmail, novoNome) {
+async function AtualizarDadosUsuario(id, novoEmail, novoNome) {
   try {
     const resultado = await user.update(
       { nome: novoNome, email: novoEmail },
@@ -20,3 +20,4 @@ async function AtualizarNomeUsuario(id, novoEmail, novoNome) {
 // Exemplo de como chamar a função:
 //AtualizarNomeUsuario(1, "geraldo@email.com","Geraldo ");
 //AtualizarNomeUsuario(2, "higor@email.com", "Higor");
+export { AtualizarDadosUsuario };
