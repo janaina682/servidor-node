@@ -15,4 +15,5 @@ async function DeletarUsuario(id) {
     }
 }
 // Exemplo de como chamar a função:
-DeletarUsuario(3);
+//DeletarUsuario(3);
+export { DeletarUsuario };
